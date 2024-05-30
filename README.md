@@ -32,6 +32,7 @@ sql_query = "SELECT name, age FROM users INNER JOIN orders ON users.id = orders.
 converter = SQLToDAXConverter(sql_query)
 converter.convert()
 print(converter.get_dax_query())
+```
 
 ## Contribution
 Contributions to this project are welcome! If you encounter any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
